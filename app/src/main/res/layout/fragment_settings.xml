@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.Settings"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#8c000000"
+                android:text="@string/carpeta_import"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:textColor="#8c000000"
+                    android:inputType="textUri"
+                    android:text="@string/ruta"
+                    android:ems="10"
+                    android:id="@+id/txtRutaImport"/>
+            <ImageButton
+                    android:src="@drawable/ic_folder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnRutaImport"
+                    android:layout_weight="90"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#8c000000"
+                android:text="@string/carpeta_export"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:textColor="#8c000000"
+                    android:inputType="textUri"
+                    android:text="@string/ruta"
+                    android:ems="10"
+                    android:id="@+id/txtRutaExport"/>
+            <ImageButton
+                    android:src="@drawable/ic_folder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnRutaExport"
+                    android:layout_weight="90"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#8c000000"
+                android:text="@string/marca_agua"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:textColor="#8c000000"
+                    android:inputType="textUri"
+                    android:text="@string/ruta"
+                    android:ems="10"
+                    android:id="@+id/txtRutaMarcaAgua"/>
+            <ImageButton
+                    android:src="@drawable/ic_folder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnRutaMarcaAgua"
+                    android:layout_weight="90"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#8c000000"
+                android:text="@string/propagandas"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:textColor="#8c000000"
+                    android:inputType="textUri"
+                    android:text="@string/ruta"
+                    android:ems="10"
+                    android:id="@+id/txtRutaPropaganda"/>
+            <ImageButton
+                    android:src="@drawable/ic_folder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnRutaPropaganda"
+                    android:layout_weight="90"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

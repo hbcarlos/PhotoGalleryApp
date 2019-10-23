@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">PhotoGallery</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="sync">Sync</string>
+
+    <string name="Gallery">Gallery</string>
+    <string name="Web">Web</string>
+    <string name="GoogleDrive">GoogleDrive</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Instagram">Instagram</string>
+    <string name="Mega">Mega</string>
+
+    <string name="Settings">Settings</string>
+    <string name="carpeta_import">Carpeta a importar:</string>
+    <string name="carpeta_export">Carpeta fotos:</string>
+    <string name="password">password</string>
+    <string name="correo">Correo</string>
+    <string name="ruta">ruta</string>
+    <string name="usuario">Usuario</string>
+    <string name="conectar">Conectar</string>
+    <string name="agree">Aceptar</string>
+    <string name="disagree">Cancelar</string>
+    <string name="messageDelete">Si continuas eliminaras las fotos seleccionadas de la galeria, estas no se volveran a sincronizar hasta que no reinicies la App.</string>
+    <string name="titleDelete">Desea eliminar las fotos seleccionadas?</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="email">example@gmail.com</string>
+    <string name="resolucion">Resolución</string>
+    <string name="enlace">enlace</string>
+    <string name="enlace_carpeta">Enlace carpeta</string>
+    <string name="nueva_carpeta">Nueva carpeta</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="newFolder">Nueva carpeta</string>
+    <string name="compartir">Compartir</string>
+    <string name="getLink">Enlace</string>
+    <string name="deleteFolder">Eliminar</string>
+    <string name="marca_agua">Marcas de agua:</string>
+    <string name="propagandas">Propagandas:</string>
+
+    <string name="REQUEST_LOGGING_STATUS">Error al comprobar sesion: \n\t1. Comprueba tu conexion a internet.\n\t2. Reinicia la sesion.</string>
+    <string name="REQUEST_SIGN_IN">Error al iniciar la sesion: \n\t1. Comprueba tu conexion a internet.\n\t2. Inicia sesion de nuevo.</string>
+    <string name="REQUEST_SIGN_OUT">Error al cerrar la sesion: \n\t1. Cierra sesion de nuevo.</string>
+    <string name="REQUEST_ROOT">Error al obtener la carpeta raiz: \n\t1. Comprueba tu conexion a internet.\n\t2. Reinicia la sesion.</string>
+    <string name="REQUEST_FOLDER">Error al obtener la carpeta: \n\t1. Comprueba tu conexion a internet.\n\t2. Comprueba que la sesion está iniciada.\n\t3. Prueba de nuevo.</string>
+
+    <string name="REQUEST_SHARE_FOLDER">Error: Esta carpeta no puede ser compartida.</string>
+    <string name="REQUEST_GET_LINK">Error: Esta carpeta no tiene link.</string>
+    <string name="REQUEST_CREATE_FOLDER">Error: No se ha podido crear la carpeta.</string>
+    <string name="REQUEST_DELETE_FOLDER">Error: Esta carpeta no se puede eliminar</string>
+    <string name="REQUEST_UPLOAD_IMAGE">Error al enviar la imagen: \n\t1. Comprueba tu conexion a internet.\n\t2. Comprueba que la sesion está iniciada.\n\t3. Prueba de nuevo.</string>
+    <string name="REQUEST_LIST_FOLDERS">Error al obtener las carpetas: \n\t1.Comprueba tu conexion a internet.\n\t2. Comprueba que la sesion está iniciada.\n\t3. Prueba de nuevo.</string>
+    <string name="REQUEST_LIST_FILES">Error al obtener las imágenes: \n\t1. Comprueba tu conexion a internet.\n\t2. Comprueba que la sesion está iniciada.\n\t3. Prueba de nuevo.</string>
+
+    <string name="EXEPTION_PERMISSIONS">ERROR faltan permisos: \n\t1. Comprueba la configuracion de seguridad de tu cuenta.\n\t2. Permitir APPs no seguras.\n\t3. Prueba de nuevo.</string>
+    <string name="EXEPTION_NETWORK">ERROR no hay internet: \n\t1. Comprueba tu conexion a internet.\n\t2. Prueba de nuevo.</string>
+    <string name="btn_marca_agua">Marca de agua</string>
+    <string name="btn_propaganda">Propaganda</string>
+
+    <string name="ajustes_edicion">Ajustes</string>
+    <string name="async_task">Progreso tarea:</string>
+    <string name="dialog_tasks_title">Tareas:</string>
+    <string name="place">Exportar fotos a:</string>
+    <string name="export">Exportar</string>
+    <string name="EXEPTION_SESSION">ERROR: debes iniciar session</string>
+    <string name="EXEPTION">ERROR: excepcion desconocida</string>
+
+</resources>

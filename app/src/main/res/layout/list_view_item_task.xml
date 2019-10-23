@@ -1,0 +1,56 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/txt_name_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/async_task"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#DF101010"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+            <TextView
+                    android:id="@+id/txt_progress_task"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#DF101010"/>
+            <ProgressBar
+                    android:id="@+id/pb_task"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                app:fabSize="mini"
+                android:backgroundTint="#FFFFFF"
+                app:srcCompat="@drawable/ic_cancel" />
+
+    </LinearLayout>
+</LinearLayout>

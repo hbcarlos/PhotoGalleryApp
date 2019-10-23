@@ -1,0 +1,39 @@
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8c000000"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imagePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            fresco:actualImageScaleType="fitCenter"
+            fresco:placeholderImage="@drawable/ic_refresh"
+            fresco:failureImage="@drawable/ic_broken_image" />
+
+    <CheckBox
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="top|left"
+            android:gravity="top"
+            android:checked="false"
+            android:id="@+id/selected"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            app:fabSize="mini"
+            android:backgroundTint="@color/colorPrimary"
+            android:scaleType="center"
+            app:srcCompat="@drawable/ic_edit" />
+
+</FrameLayout>

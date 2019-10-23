@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/bottom_sheet"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="60dp"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+        app:ignore="NamespaceTypo">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="@string/ajustes_edicion"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"
+            android:background="#DF101010" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.2"
+            android:background="#DF101010"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cancel" />
+
+        <Button
+                android:id="@+id/btnAccept"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/accept" />
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="@string/resolucion"
+            android:textSize="18sp"
+            android:textColor="#FFFFFFFF"
+            android:background="#DF101010"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/sp_resolucion"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="@string/marca_agua"
+            android:textSize="18sp"
+            android:textColor="#FFFFFFFF"
+            android:background="#DF101010"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/sp_marca_agua"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="@string/propagandas"
+            android:textSize="18sp"
+            android:textColor="#FFFFFFFF"
+            android:background="#DF101010"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/sp_propaganda"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:id="@+id/btn_brightness"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#DF101010"
+                fresco:srcCompat="@drawable/ic_brightness" />
+        <ImageButton
+                android:id="@+id/btn_contrast"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#DF101010"
+                fresco:srcCompat="@drawable/ic_contrast" />
+        <ImageButton
+                android:id="@+id/btn_saturation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#DF101010"
+                fresco:srcCompat="@drawable/ic_exposure" />
+        <ImageButton
+                android:id="@+id/btn_hue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#DF101010"
+                fresco:srcCompat="@drawable/ic_color" />
+        <ImageButton
+                android:id="@+id/btn_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#DF101010"
+                fresco:srcCompat="@drawable/ic_photo_size" />
+    </LinearLayout>
+
+</LinearLayout>
